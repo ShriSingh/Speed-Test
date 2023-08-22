@@ -21,4 +21,5 @@ print(f"Upload speed: {upload_speed:.2f} Mbps")
 
 # Testing the ping rate
 ping_rate = server.results.ping
-print(f"Ping: {ping_rate} ms")
+# Printing the ping rate of the internet connection
+print(f"Ping: {ping_rate:.2f} ms")
